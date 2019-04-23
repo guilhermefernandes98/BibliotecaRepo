@@ -136,7 +136,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="Repositorio" project="Biblioteca" file="/Biblioteca/src/Repositorio.java" 
+  <class id="16" language="java" name="RepositorioMem" project="Biblioteca" file="/Biblioteca/src/RepositorioMem.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="261" width="304" x="855" y="132"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
