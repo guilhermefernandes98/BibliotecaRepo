@@ -9,7 +9,7 @@ public class Livro extends java.lang.Object
     }
     public String getTitulo() {
         return this.titulo;
-    }
+    }////
     public String getEditora() {
         return this.editora;
     }
