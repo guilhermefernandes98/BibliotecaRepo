@@ -13,5 +13,6 @@ public class Main
         EntradaNovoLivro entradaNovoLivro = new EntradaNovoLivro(LocalDate.now(),encomenda,c);
         //... criação do objeto repositorio
         RepositorioMem.adicionaEntradaNovoLivro(entradaNovoLivro);
+        ///
     }
 }
