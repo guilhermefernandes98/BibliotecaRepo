@@ -12,7 +12,6 @@ public class Main
         Encomenda encomenda = new Encomenda(LocalDate.now(),requisicaoCompraCopia);
         EntradaNovoLivro entradaNovoLivro = new EntradaNovoLivro(LocalDate.now(),encomenda,c);
         //... criação do objeto repositorio
-        RepositorioMem.adicionaEntradaNovoLivro(entradaNovoLivro);
-        ///
+        Repositorio.adicionaEntradaNovoLivro(entradaNovoLivro);
     }
 }
