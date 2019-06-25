@@ -33,5 +33,5 @@ public class RequisicaoCompra {
 
     public Utilizador getUtilizador() {
         return utilizador;
-    }
+    }//
 }
