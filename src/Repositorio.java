@@ -21,7 +21,11 @@ public abstract class Repositorio {
         ArrayList<Funcionario> Funcionario = new ArrayList<Funcionario>();
         ArrayList<Evento> Evento = new ArrayList<Evento>();
         ArrayList<TipoEvento> TipoEvento = new ArrayList<TipoEvento>();
+        ArrayList<NotificacaoEvento> NotificacaoEvento = new ArrayList<NotificacaoEvento>();
+        ArrayList<PedidoInscricaoEvento> PedidoInscricaoEvento = new ArrayList<PedidoInscricaoEvento>();
 
+        public void adicionaNotificacaoEvento(NotificacaoEvento notificacaoEvento) {NotificacaoEvento.add(notificacaoEvento);}
+        public void adicionaPedidoInscricaoEvento(PedidoInscricaoEvento inscricaoEvento) {PedidoInscricaoEvento.add(inscricaoEvento);}
         public void adicionaTipoFuncionario(TipoUtilizador tipo_utilizador)
         {
             TipoFuncionario.add(tipo_utilizador);
@@ -34,10 +38,7 @@ public abstract class Repositorio {
         {
             Doacao.add(doacao);
         }
-        public void adicionaEvento(Evento evento)
-        {
-            Evento.add(evento);
-        }
+        public void adicionaEvento(Evento evento) { Evento.add(evento); }
         public void adicionaTipoEvento(TipoEvento tipoevento)
         {
         TipoEvento.add(tipoevento);

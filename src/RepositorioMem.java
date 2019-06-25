@@ -17,7 +17,18 @@ public class RepositorioMem
     ArrayList<Encomenda> Encomenda = new ArrayList<Encomenda>();
     ArrayList<EntradaNovoLivro> EntradaNovoLivro = new ArrayList<EntradaNovoLivro>();
     ArrayList<PropostaAquisicao> PropostaAquisicao = new ArrayList<PropostaAquisicao>();
+    ArrayList<Evento> Evento = new ArrayList<Evento>();
+    ArrayList<Funcionario> Funcionario = new ArrayList<Funcionario>();
+    ArrayList<TipoFuncionario> TipoFuncionario = new ArrayList<TipoFuncionario>();
 
+    public void adicionaFuncionario(Funcionario funcionario)
+    {
+        Funcionario.add(funcionario);
+    }
+    public void adicionaTipoFuncionario(TipoFuncionario tipo)
+    {
+        TipoFuncionario.add(tipo);
+    }
     public void adicionaUtilizador(Utilizador utilizador)
     {
         Utilizador.add(utilizador);
@@ -54,6 +65,7 @@ public class RepositorioMem
     {
         Coima.add(coima);
     }
+    public void adicionaEvento(Evento evento) { Evento.add(evento);}
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r)
     {
         Iterator var2 = this.Emprestimo.iterator();
